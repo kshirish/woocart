@@ -1,0 +1,13 @@
+.Footer {
+  background: #f9f9f9;
+}
+
+.Footer h4 {
+  padding-bottom: 10px;
+}
+
+.Footer a {
+  padding-bottom: 10px;
+  display: block;
+  color: #777;
+}

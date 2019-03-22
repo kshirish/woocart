@@ -1,0 +1,18 @@
+.TextField {
+  margin-bottom: 10px;
+}
+
+.TextField label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.TextField input {
+  display: block;
+  border: none;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}

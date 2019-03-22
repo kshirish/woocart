@@ -1,0 +1,18 @@
+.Home .header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Home .header h4 {
+  text-transform: uppercase;
+}
+
+.Home .header h2 {
+  font-weight: 300;
+  font-size: 24px; /* @TODO */
+}
+
+.Home .section {
+  margin-bottom: 30px;
+}

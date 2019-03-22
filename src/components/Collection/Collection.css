@@ -1,0 +1,23 @@
+.Collection {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.Collection img {
+  display: block;
+  width: 100%;
+}
+
+.Collection > * {
+  padding-bottom: 10px;
+}
+
+.Collection .name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Collection .description {
+  color: #666;
+}

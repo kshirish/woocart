@@ -1,0 +1,23 @@
+.Product {
+  text-align: left;
+  padding: 20px;
+  color: #333;
+}
+
+.Product img {
+  display: block;
+  width: 100%;
+}
+
+.Product > * {
+  padding-bottom: 10px;
+}
+
+.Product .name {
+  color: #666;
+}
+
+.Product .retailPrice {
+  color: #999;
+  text-decoration: line-through;
+}

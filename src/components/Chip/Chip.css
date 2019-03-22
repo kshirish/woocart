@@ -1,0 +1,20 @@
+.Chips {
+  margin-bottom: 10px;
+}
+
+.Chips .Chip {
+  background: #444;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.Chips .Chip:hover {
+  opacity: 0.8;
+}
+
+.Chips .Chip .crossIcon {
+  padding-left: 10px;
+  cursor: pointer;
+}

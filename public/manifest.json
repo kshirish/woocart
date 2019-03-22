@@ -1,0 +1,13 @@
+{
+  "name": "Woocart",
+  "short_name": "Woocart",
+  "description": "An e-commerce platform",
+  "dir": "ltr",
+  "lang": "en",
+  "theme_color": "#FFFFFF",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "natural",
+  "start_url": "/",
+  "categories": ["e-commerce", "technology", "web"]
+}

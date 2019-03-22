@@ -1,0 +1,42 @@
+.Select {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Select .content {
+  position: relative;
+}
+
+.Select label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.Select .box {
+  padding: 13px;
+  border: 1px solid #ddd;
+}
+
+.Select .list {
+  border: 1px solid #bbb;
+  border-top: none;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 2.3em;
+  background: #fff;
+  max-height: 250px;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.Select .list .list-item {
+  margin: 0;
+  padding: 0px 20px;
+  line-height: 3em;
+  cursor: pointer;
+}
+
+.Select .list .list-item:hover {
+  background: #eee;
+}

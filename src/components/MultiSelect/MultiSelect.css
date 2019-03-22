@@ -1,0 +1,42 @@
+.MultiSelect {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.MultiSelect .content {
+  position: relative;
+}
+
+.MultiSelect label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.MultiSelect .box {
+  padding: 13px;
+  border: 1px solid #ddd;
+}
+
+.MultiSelect .list {
+  border: 1px solid #bbb;
+  border-top: none;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 2.3em;
+  background: #fff;
+  max-height: 250px;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.MultiSelect .list .CheckBox {
+  cursor: pointer;
+  margin: 0;
+  padding: 0px 20px;
+  line-height: 3em;
+}
+
+.MultiSelect .list .CheckBox:hover {
+  background: #eee;
+}

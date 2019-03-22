@@ -1,0 +1,16 @@
+.Counter {
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.Counter button {
+  margin: 0;
+  background: none;
+}
+
+.Counter input[type='text'] {
+  width: 50px;
+  display: inline-block;
+  border: none;
+  text-align: center;
+}
