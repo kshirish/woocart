@@ -41,7 +41,7 @@ class Select extends Component {
         <div className="content">
           <label htmlFor={id}>{label}</label>
           <div className="box" onClick={e => this.toggleDropdown()}>
-            {value ? value.displayName || value : 'Select an option'}
+            {value ? value.displayName || 'Select an option'}
           </div>
           <div
             className="list"
